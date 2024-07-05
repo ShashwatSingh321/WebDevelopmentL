@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css variable</title>
+    <style>
+        :root{
+            --color: aqua;
+            --opacity: 0.8;
+            --seccolor: grey;
+            
+                 
+
+        }
+        *{
+            margin: 0px;
+            
+        }
+        ul{
+            color: var(--color);
+            
+        }
+        p{
+            opacity: var(--opacity);
+            background-color: var(--seccolor);
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>address</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti debitis illo non exercitationem. Minima porro cumque, natus sit quidem laboriosam unde quasi magnam inventore aliquid neque vero reprehenderit incidunt eum ipsa, blanditiis ex earum, quos architecto ratione? Architecto repellat, molestias delectus distinctio ullam deserunt assumenda!</p>
+</body>
+
+</html>
